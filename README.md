@@ -10,8 +10,20 @@
 ## ⚡ Quick Start
 
 ```bash
+# Clone and start a new project
+git clone https://github.com/nuno80/nuno-nextjs16.starterkit.git my-new-project
+cd my-new-project
+pnpm install
+pnpm dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to see your app.
+
+### Full Setup (with database)
+
+```bash
 # 1. Clone and install
-git clone <repo-url> my-app
+git clone https://github.com/nuno80/nuno-nextjs16.starterkit.git my-app
 cd my-app
 pnpm install
 
