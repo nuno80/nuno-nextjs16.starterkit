@@ -64,10 +64,11 @@ const navigation: NavItem[] = [
 export function Sidebar({ isMobileOpen, onMobileClose }: SidebarProps) {
   const pathname = usePathname()
   const [expandedItems, setExpandedItems] = useState<string[]>([])
-  const [orgData, setOrgData] = useState({
+  // Organization data - could be fetched from context or props in a real app
+  const orgData = {
     organizationName: 'StarterKit',
     organizationEmail: '',
-  })
+  }
 
   const toggleExpanded = (label: string) => {
     setExpandedItems((prev) =>

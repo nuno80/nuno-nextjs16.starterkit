@@ -29,9 +29,6 @@
     ]
   },
   "dependencies": {
-    "@dnd-kit/core": "^6.3.1",
-    "@dnd-kit/sortable": "^10.0.0",
-    "@dnd-kit/utilities": "^3.2.2",
     "@heroui/navbar": "^2.2.25",
     "@hookform/resolvers": "^5.2.2",
     "@libsql/client": "^0.15.15",
@@ -57,7 +54,6 @@
     "dotenv": "^17.2.3",
     "drizzle-orm": "^0.44.7",
     "framer-motion": "^12.23.24",
-    "html5-qrcode": "^2.3.8",
     "jspdf": "^3.0.4",
     "jspdf-autotable": "^5.0.2",
     "lucide-react": "^0.546.0",

@@ -72,6 +72,7 @@ Prima di qualsiasi attività:
 |-----------|-------|----------------|
 | `src/app/` | Pages e API routes | [src/app/GEMINI.md](src/app/GEMINI.md) |
 | `src/components/` | Componenti React | [src/components/GEMINI.md](src/components/GEMINI.md) |
+| `src/data/` | DAL per File Storage (Vercel Blob) | [src/data/GEMINI.md](src/data/GEMINI.md) |
 | `src/lib/` | Business Logic, DAL, Validazioni | [src/lib/GEMINI.md](src/lib/GEMINI.md) |
 | `src/db/` | Schemi Drizzle | [src/db/GEMINI.md](src/db/GEMINI.md) |
 

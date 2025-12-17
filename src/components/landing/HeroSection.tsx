@@ -14,12 +14,9 @@ import {
   Users,
 } from 'lucide-react'
 import Link from 'next/link'
-import type React from 'react'
 import { useEffect, useState } from 'react'
 
-type HeroSectionProps = {}
-
-const HeroSection: React.FC<HeroSectionProps> = () => {
+const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false)
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 

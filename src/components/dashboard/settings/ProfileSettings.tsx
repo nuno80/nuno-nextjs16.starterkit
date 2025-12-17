@@ -13,6 +13,7 @@
 
 'use client'
 
+import Image from 'next/image'
 import { useState } from 'react'
 import { toast } from 'sonner'
 import { updateProfileSettings } from '@/app/actions/settings'
@@ -193,12 +194,13 @@ export function ProfileSettingsForm({ initialSettings }: ProfileSettingsFormProp
           <div>
             <label className="block text-sm font-medium text-gray-700">Logo</label>
             <div className="mt-1 flex items-center space-x-4">
-              <div className="h-20 w-20 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400">
+              <div className="relative h-20 w-20 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 overflow-hidden">
                 {settings.logoUrl ? (
-                  <img
+                  <Image
                     src={settings.logoUrl}
                     alt="Logo"
-                    className="h-full w-full object-cover rounded-lg"
+                    fill
+                    className="object-cover rounded-lg"
                   />
                 ) : (
                   <span className="text-3xl">🏢</span>
