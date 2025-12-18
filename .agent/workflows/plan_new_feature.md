@@ -2,6 +2,8 @@
 description: Progettazione con divisione tra Front end e Back end netta
 ---
 
+# /plan_new_feature - Pianificazione Nuove Feature
+
 Quando ricevi un PRD o una richiesta di nuova feature, crea un piano strutturato seguendo questo schema:
 
 ## Stack di Riferimento

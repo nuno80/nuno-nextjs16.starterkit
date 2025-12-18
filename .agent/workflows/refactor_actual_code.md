@@ -2,7 +2,7 @@
 description: Pianifica modifiche architetturali senza implementarle, utile per refactoring complessi e analisi impatto
 ---
 
-# /architect - Code Architect Mode
+# /refactor_actual_code - Pianificazione Refactoring
 
 Modalità di pianificazione architetturale: analizza e descrive le modifiche necessarie **senza implementarle**.
 
